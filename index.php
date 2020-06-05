@@ -1,7 +1,9 @@
 <?php
 include("contact.php");
 ?>
-
+<html>
+	<head>
+		<style>
   footer h5 {
     margin-bottom: 15px;
   }
@@ -223,35 +225,5 @@ include("contact.php");
   </div>
 </section>
 
-<!-- Scripts !-->
-			<script src="style2/js/jquery.min.js"></script>
-			<script src="style2/js/browser.min.js"></script>
-			<script src="style2/js/breakpoints.min.js"></script>
-			<script src="style2/js/util.js"></script>
-            <script src="style2/js/main.js"></script> 
-            <script src="style2/js/wow.min.js"></script>
-		<script src="style2/js/jquery.singlePageNav.min.js"></script>
-        <script src="style2/js/custom.js"></script>
-        <script src="style2/js/jquery.js"></script>
-        <script src="style2/js/bootstrap.min.js"></script>
-        <script src="style4/js/index.js"></script>
-        <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-
-        <script>
-            var coll = document.getElementsByClassName("collapsible");
-            var i;
-            
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.maxHeight){
-                  content.style.maxHeight = null;
-                } else {
-                  content.style.maxHeight = content.scrollHeight + "px";
-                } 
-              });
-            }
-            </script>
 	</body>
 </html>
